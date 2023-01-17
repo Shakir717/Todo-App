@@ -33,8 +33,16 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
 
   cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
   flutter_localization: ^0.1.9
   intl: ^0.17.0
+  todo_local_storage:
+    path: packages/todo_local_storage
+  todo_api:
+    path: packages/todo_api
+  todo_repository:
+    path: packages/todo_repository
 
 dev_dependencies:
   flutter_test:
