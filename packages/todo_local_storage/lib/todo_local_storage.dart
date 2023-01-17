@@ -1,7 +1,5 @@
 library todo_local_storage;
+export 'src/todo_local_storage.dart';
+export 'package:shared_preferences/shared_preferences.dart'
+    show SharedPreferences;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
