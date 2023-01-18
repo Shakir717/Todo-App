@@ -4,12 +4,11 @@ Demo project .
 
 ## Getting Started
 
-implemented with bloc / freezed / flutter_localization
+working demo features Todo app (add,update mark as completed check active todo , clear all)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- bloc
+- freezed
+- flutter_localization
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
