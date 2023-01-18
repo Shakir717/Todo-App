@@ -1,10 +1,10 @@
-# todo_app
+# Todo App
 
-A new Flutter project.
+Demo project .
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+implemented with bloc / freezed / flutter_localization
 
 A few resources to get you started if this is your first Flutter project:
 
