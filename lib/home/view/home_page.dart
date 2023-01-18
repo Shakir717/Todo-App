@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../edit_todo/view/eidt_todo_page.dart';
+import '../../stats/view/stats_page.dart';
 import '../../todo_overview/view/todo_overview_page.dart';
 import '../cubit/home_cubit.dart';
 
@@ -25,7 +27,7 @@ class HomeView extends StatelessWidget {
     return Scaffold(
       body: IndexedStack(
         index: selectedTab.index,
-        children:  [const TodosOverviewPage(), StatsPage()],
+        children:  const [TodosOverviewPage(), StatsPage()],
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(

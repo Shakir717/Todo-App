@@ -25,8 +25,16 @@ class AppView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        appBarTheme: const AppBarTheme(
+          elevation: .5,
+          backgroundColor: Colors.white,
+          titleTextStyle: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 18),
+          iconTheme: IconThemeData(color: Colors.black),
+        )
+      ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
       home: HomePage(),
