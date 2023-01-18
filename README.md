@@ -1,4 +1,5 @@
 # Todo App
+Todo app using bloc state management
 
 Demo project .
 
