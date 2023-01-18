@@ -25,13 +25,13 @@ class HomeView extends StatelessWidget {
     return Scaffold(
       body: IndexedStack(
         index: selectedTab.index,
-        children:  const [TodosOverviewPage(), Center(child: Text('Stats page'),)],
+        children:  [const TodosOverviewPage(), StatsPage()],
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
         key: const Key('homeView_addTodo_floatingActionButton'),
         onPressed: () {
-         // Navigator.of(context).push(EditTodoPage.route());
+          Navigator.of(context).push(EditTodoPage.route());
         },
         child: const Icon(Icons.add),
       ),

@@ -11,5 +11,8 @@ class TodosOverviewState with _$TodosOverviewState {
     Todo? lastDeletedTodo,
   })= _TodosOverviewState;
 
- Iterable<Todo> get filteredTodos => filter!.applyAll(todos!);
+
+}
+extension todo on TodosOverviewState{
+  Iterable<Todo> get filteredTodos => filter!.applyAll(todos!);
 }
